@@ -1,16 +1,11 @@
 from dotenv import load_dotenv
 load_dotenv()
-
 import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-# Google API Key
-GOOGLE_API_KEY = "Enter_API_Key"
-
 # Gemini Model
 llm = ChatGoogleGenerativeAI(
-    model="gemini-3.1-flash-lite",
-    google_api_key=GOOGLE_API_KEY
+    model="gemini-3.1-flash-lite"
 )
 
 # Streamlit Page
