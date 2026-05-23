@@ -5,7 +5,7 @@ import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Google API Key
-GOOGLE_API_KEY = "AIzaSyDyK0KcVnlV7sfBrI0v1QVFErrflh5wkxE"
+GOOGLE_API_KEY = "Enter_API_Key"
 
 # Gemini Model
 llm = ChatGoogleGenerativeAI(
